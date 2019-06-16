@@ -1,0 +1,21 @@
+1. git init
+2. git status
+
+3. git add test.txt // szinpadra
+4. git commit -m "asda" //commitolás
+
+5. git log
+
+6. git remote add origin https://github.com/peterhell95/Munka.git
+7. git push origin master
+8. git pull origin master
+// ha hibat dob akk git pull origin master --allow-unrelated-histories
+git clone https://github.com/peterhell95/Munka.git // klonozas
+
+git diff HEAD //valtoztattas megnezese
+git checkout -- red.txt // valtozasok törlese a red.txt fajlban
+git reset red.txt // red.txt fajl leszedése arepobol
+
+git branch // megnezzuk melyik branchen vagyunk
+git branch clean_up // branch letrehozasa
+git checkout clean_up // clean_up-ra lepes
